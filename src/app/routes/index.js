@@ -5,6 +5,10 @@ const LoginController = require('../controllers/LoginController');
 
 const router = express.Router();
 
+router.get('/', (req, res) => {
+    return res.send("VAI TOMAR NO CU");
+});
+
 router.post('/usuarios', UsuarioController.novoUsuario);
 // router.get('/usuario', UsuariosController.listarUsuarios);
 // router.get('/usuario/:id', UsuariosController.listarUmUsuario);
