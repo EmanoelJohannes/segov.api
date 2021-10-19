@@ -17,7 +17,7 @@ app.use(router);
 
 var httpServer = http.createServer(app);
 
-httpServer.listen(5080, () => console.log('Aplicação HTTP rodando na porta 5080'));
+httpServer.listen(process.env.PORT, () => console.log('Aplicação HTTP rodando na porta 5080'));
 
 // app.listen(5000, () => {
 //     console.log('Aplicação rodando na porta 5000');
