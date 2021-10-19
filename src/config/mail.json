@@ -1,0 +1,9 @@
+{
+    "host": "mail.segov.com.br",
+    "port": 465,
+    "user": "servidor@segov.com.br",
+    "pass": "Zj@g%IbaU)p(",
+
+    "from": "'Não responda' <servidor@segov.com.br>",
+    "link_recuperar_senha": "https://segov.com.br/alterar-senha"
+}

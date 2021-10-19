@@ -1,0 +1,32 @@
+// servidor dedicado
+{
+    "host": "smtp.hostinger.com.br",
+    "port": 587,
+    "user": "sicgesp@legendaryteam.com.br",
+    "pass": "v9Z;wo5Tb3?",
+
+    "from": "'Não responda' <sicgesp@legendaryteam.com.br>",
+    "link_recuperar_senha": "http://localhost:8080/alterar-senha"
+}
+
+// servidor segov
+{
+    "host": "mail.segov.com.br",
+    "port": 587,
+    "user": "servidor@segov.com.br",
+    "pass": "Zj@g%IbaU)p(",
+
+    "from": "'Não responda' <servidor@segov.com.br>",
+    "link_recuperar_senha": "https://segov.com.br/alterar-senha"
+}
+
+// testes mailtrap
+{
+    "host": "smtp.mailtrap.io",
+    "port": 2525,
+    "user": "dc8a4a108f50a6",
+    "pass": "6d4e5ac0a72591",
+
+    "from": "nao-responda@sicgesp.com.br",
+    "link_recuperar_senha": "http://localhost:8080/alterar-senha"
+}
