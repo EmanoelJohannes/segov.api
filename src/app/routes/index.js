@@ -6,7 +6,7 @@ const LoginController = require('../controllers/LoginController');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    return res.send("VAI TOMAR NO CU");
+    return res.send("Bem vindo ao Segov API :)");
 });
 
 router.post('/usuarios', UsuarioController.novoUsuario);
